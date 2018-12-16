@@ -10,5 +10,6 @@ public class JokeappApplication {
         SpringApplication.run(JokeappApplication.class, args);
     }
 
+
 }
 
