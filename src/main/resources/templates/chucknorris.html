@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<!--20181216, Don't forget to add thymeleaf space-->
+<html lang="en" xmlns:th="htto://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokes</title>
+</head>
+<body>
+<h1>Chuck Norris Joke!</h1>
+<!--joke is from model, repleace Insert Joke Here! with text coming from model-->
+<p th:text="${joke}">Insert Joke Here!</p>
+</body>
+</html>
